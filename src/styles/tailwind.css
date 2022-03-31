@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    min-height: 100vh;
+    @apply bg-gray-light flex flex-col items-center justify-center;
+  }
+}
+
+@layer components {
+  .list {
+    li {
+      @apply text-gray-light text-sm mt-1;
+    }
+
+    @apply mt-6;
+  }
+}
